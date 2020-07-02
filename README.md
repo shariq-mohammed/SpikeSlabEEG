@@ -5,7 +5,7 @@ R package for "Mohammed, S., Dey, D.K. and Zhang, Y., 2019. Bayesian variable se
 Code to run the local Bayesian modeling on the EEG data using the package SpikeSlabEEG.   
 
 ## Contents
-1. Load EEG data and divides it into training and test.
+1. Load EEG data and divide it into training and test.
 2. Build local models in parallel.
 3. Use MCMC estimates to do variable selection.
 4. Predict the alcoholic status of subjects in test set.
@@ -24,7 +24,7 @@ library(doParallel)
 library(BayesTestStreak) # install from https://github.com/bayesball/BayesTestStreak
 ```
 
-### Load EEG data and divides it into training and test
+### Load EEG data and divide it into training and test
 Load EEG Data
 ```
 X = SpikeSlabEEG::X
