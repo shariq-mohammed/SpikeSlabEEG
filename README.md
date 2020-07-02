@@ -12,7 +12,8 @@ Code to run the local Bayesian modeling on the EEG data using the package SpikeS
 
 ```
 # install the package (devtools package needed)
-if(!require(SpikeSlabEEG)) devtools::install_github('SpikeSlabEEG')
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github('SpikeSlabEEG')
 library(SpikeSlabEEG)
 
 #loading required packages
