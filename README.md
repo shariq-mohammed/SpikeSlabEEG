@@ -1,6 +1,6 @@
 # SpikeSlabEEG
 
-R package for "Mohammed, S., Dey, D.K. and Zhang, Y., 2019. Bayesian variable selection using spike-and-slab priors with application to high dimensional electroencephalography data by local modelling. Journal of the Royal Statistical Society: Series C (Applied Statistics), 68(5), pp.1305-1326."
+R package for "[Mohammed, S.](shariq-mohammed.github.io), Dey, D.K. and Zhang, Y., 2019. Bayesian variable selection using spike-and-slab priors with application to high dimensional electroencephalography data by local modelling. Journal of the Royal Statistical Society: Series C (Applied Statistics), 68(5), pp.1305-1326. [https://doi.org/10.1111/rssc.12369](https://doi.org/10.1111/rssc.12369)"
 
 Code to run the local Bayesian modeling on the EEG data using the package SpikeSlabEEG.   
 
@@ -13,7 +13,7 @@ Code to run the local Bayesian modeling on the EEG data using the package SpikeS
 ```
 # install the package (devtools package needed)
 if(!require(devtools)) install.packages("devtools")
-devtools::install_github('SpikeSlabEEG')
+devtools::install_github('shariq-mohammed/SpikeSlabEEG')
 library(SpikeSlabEEG)
 
 #loading required packages
